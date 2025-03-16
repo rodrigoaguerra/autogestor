@@ -59,7 +59,12 @@ php artisan migrate --seed
  - **Senha:** password
  - **Nível:** comum
 
-### 🔹 1.6 Iniciar o Servidor
+### 🔹 1.6 Compilar o front-end
+```sh
+npm run build
+```
+
+### 🔹 1.7 Iniciar o Servidor
 ```sh
 php artisan serve
 ```
